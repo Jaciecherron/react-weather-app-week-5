@@ -6,7 +6,7 @@ export default function App() {
       Weather App
       <footer>
         This project was codded by{" "}
-        <a href="https://github.com/Jaciecherron">Jacie Spivey </a> and is
+        <a href="https://github.com/Jaciecherron" target="_blank" rel="noreferrer">Jacie Spivey </a> and is
         hosted on Netlify
       </footer>
     </div>

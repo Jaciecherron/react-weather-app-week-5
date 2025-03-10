@@ -7,7 +7,7 @@ export default function WeatherDay (props){
     }
 
     function minTemperature() {
-      let temperature = Math.round(props.data.temperature.minumum);
+      let temperature = Math.round(props.data.temperature.minimum);
       return `${temperature}°`;
     }
 

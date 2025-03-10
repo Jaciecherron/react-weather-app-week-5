@@ -38,7 +38,7 @@ if (loaded) {
 let apiKey = "9f3o6449dc310bta33096fd85b205350";
 let longitude = props.coordinates.longitude;
 let latitude = props.coordinates.latitude;
-let apiURL = `https://api.shecodes.io/weather/v1/current?lon=${longitude}&lat=${latitude}&key=${apiKey}&units=metric`;
+let apiURL = `https://api.shecodes.io/weather/v1/forecast?lon=${longitude}&lat=${latitude}&key=${apiKey}&units=metric`;
 axios.get(apiURL).then(handleResponse);
 
 return null;
